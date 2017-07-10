@@ -14,7 +14,7 @@ LOCAL_CFLAGS += -Wall -Wextra -Wwrite-strings -Wno-sign-compare -D_FILE_OFFSET_B
 
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/include
 
-LOCAL_STATIC_LIBRARIES := libc
+#LOCAL_STATIC_LIBRARIES := libc
 
 LOCAL_MODULE := flash_erase
 LOCAL_MODULE_TAGS := optional
